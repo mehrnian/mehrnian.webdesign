@@ -5,6 +5,23 @@
     <meta charset="utf-8" />
     <title>طراحی سایت</title>
     <style>
+      /*reset-settings*/
+      *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .header{
+        position: relative;
+        background : url(web-designer-background-int.jpg) pink center no-repeat;
+        width: 100%;
+        height: 690px;
+      }
+      /*header*/
+      .background_image{
+        width: 100%;
+        height: 690px;
+      }
       ul{
         list-style: none;
         text-align: center;
@@ -19,13 +36,29 @@
       li:hover{
         color: rgb(252, 157, 146);
       }
+      .logo{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+      }
+      .header_text{
+        color: rgb(12, 12, 14);
+        text-align: center;
+        padding-top: 200px;
+        font-size: 25px;
+      }
     </style>  
   </head>
   <body>
-    <p>You Web</p>
-    <br><p><strong>به سایت you web خوش آمدید</strong></p>
-    <h1>طراحی سایت های تخصصی با قالب سازی حرفه ای یا با استفاده ازwordpress</h1>
-    <a href = "">ثبت سفارش</a>
+    <div class="header">
+      <img src="images.png" width="100px"  alt="logo" class="logo">
+      <div class="header_text">
+        <h1>You Web</h1>
+        <br><ph2><strong>به سایت you web خوش آمدید</strong></h2>
+        <p>طراحی سایت های تخصصی با قالب سازی حرفه ای یا با استفاده ازwordpress</p>
+        <a href = "">ثبت سفارش</a>
+        </div>
+    </div>
     <ul>
       <li>صفحه اصلی</li>
       <li>تعرفه ها و شرایط</li>
