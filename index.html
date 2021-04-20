@@ -5,15 +5,28 @@
     <meta charset="utf-8" />
     <title>طراحی سایت</title>
     <style>
+      /*font*/
+      @font-face {
+  font-family: 'yekan';
+  src: url('font/BYekan.eot'); 
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), 
+       url('font/BYekan.woff2') format('woff2'), 
+       url('font/BYekan.woff') format('woff'), 
+       url('font/Yekan.ttf')  format('truetype'), 
+       
+}
       /*reset-settings*/
       *{
         margin:0;
         padding: 0;
         box-sizing: border-box;
       }
+      body{
+        font-family: "yekan",  Calibri, Tahoma , Arial;
+      }
       .header{
         position: relative;
-        background : url(web-designer-background-int.jpg) pink center no-repeat;
+        background : url(images/web-designer-background-int.jpg) pink center no-repeat;
         width: 100%;
         height: 690px;
       }
@@ -51,7 +64,7 @@
   </head>
   <body>
     <div class="header">
-      <img src="images.png" width="100px"  alt="logo" class="logo">
+      <img src="images/images.png" width="100px"  alt="logo" class="logo">
       <div class="header_text">
         <h1>You Web</h1>
         <br><ph2><strong>به سایت you web خوش آمدید</strong></h2>
